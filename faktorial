@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+/**
+ *
+ * @author Asisten
+ */
+
+public class JavaApplication1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        System.out.println("Masukkan jumlah Nilai :");
+        Scanner inputp = new Scanner(System.in);
+        int ab= inputp.nextInt();
+        int i,tot=1;        
+        for (i=1;i<=ab;i++)         
+        {             
+            tot=tot*i;         
+        }         
+        System.out.println("Faktorial dari "+ab+"! : " +tot);
+    }
+}
