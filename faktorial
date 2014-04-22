@@ -17,7 +17,8 @@ public class JavaApplication1 {
         int ab= inputp.nextInt();
         int i,tot=1;        
         for (i=1;i<=ab;i++)         
-        {             
+        {
+            System.out.print(i);
             tot=tot*i;         
         }         
         System.out.println("Faktorial dari "+ab+"! : " +tot);
